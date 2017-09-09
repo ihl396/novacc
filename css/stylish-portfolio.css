@@ -162,6 +162,20 @@ hr.small {
     -o-background-size: cover;
     color: #EB9532;
 }
+.announcement {
+    padding: 50px 0;
+    height: 3em;
+    color: #D91E18;
+}
+.announcement h1 {
+    line-height: 1.2em;
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
 
 /* About */
 
@@ -240,7 +254,7 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 100px 25px;
 }
 
 #to-top {
@@ -248,4 +262,27 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+#dabar{
+    background: rgb(252, 70, 30);
+    color: #fff;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#dabar a{ 
+        color: #fff; 
+        text-decoration:underline; 
+        font-weight: normal; 
+}
+
+@media only screen and (max-width:768px) {
+	#dabar {
+        display: none;
+    }
 }
